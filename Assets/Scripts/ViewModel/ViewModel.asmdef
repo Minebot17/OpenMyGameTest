@@ -1,0 +1,20 @@
+{
+    "name": "ViewModel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:20fb42bc08595ab42a32810f56016f0a",
+        "GUID:7eb13a8bdeabba14286816a2fa55f720",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
