@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b9ce9f36004439b695ea1e5cb4baaa, type: 3}
+  m_Name: PuzzlesMockSettings
+  m_EditorClassIdentifier: Config::Config.PuzzlesMockSettings
+  <PuzzleMocks>k__BackingField:
+  - Id: 0
+    Image: {fileID: 7117735870903579226, guid: 79ed5b6e035f97a4ea0f352644ad9ab0, type: 3}
+  - Id: 1
+    Image: {fileID: 7230886950324890127, guid: 38660961e7a5dd54f92f8e441c71a2b9, type: 3}
+  - Id: 2
+    Image: {fileID: -2114309835317573698, guid: 473c8362e7e06ce42924cd9444a4bbd9, type: 3}
+  - Id: 3
+    Image: {fileID: -8247734076426801272, guid: e12137ac7c2b4da45b0119c6150945ac, type: 3}

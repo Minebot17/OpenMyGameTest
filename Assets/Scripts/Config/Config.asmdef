@@ -1,13 +1,9 @@
 {
-    "name": "DI",
+    "name": "Config",
     "rootNamespace": "",
     "references": [
-        "GUID:20fb42bc08595ab42a32810f56016f0a",
-        "GUID:7eb13a8bdeabba14286816a2fa55f720",
-        "GUID:daedc257416053e4295c8234cb1c10f8",
         "GUID:49d654e91f1c1114d9bbec988f707e1d",
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
-        "GUID:4b8aae643ab44c9ba6a0b34c59910501"
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
