@@ -16,8 +16,10 @@ namespace Config
             return PuzzleMocks.Select(puzzle =>
             {
                 var elementVm = objectResolver.Resolve<PuzzleSelectionElementViewModel>();
-                elementVm.PuzzleId.Value = puzzle.Id;
-                elementVm.PuzzleImage.Value = puzzle.Image;
+                elementVm.Id.Value = puzzle.Id;
+                elementVm.Image.Value = puzzle.Image;
+                elementVm.OpenType.Value = puzzle.OpenType;
+                elementVm.Initialize();
                 return elementVm;
             }).ToList();
         }

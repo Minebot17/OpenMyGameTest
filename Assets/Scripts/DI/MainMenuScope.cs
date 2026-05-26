@@ -19,6 +19,7 @@ namespace DI
 
             builder.Register<AlphaPanelTransition>(Lifetime.Singleton).AsImplementedInterfaces().AsSelf();
             builder.Register<InstantPanelTransition>(Lifetime.Singleton).AsImplementedInterfaces().AsSelf();
+            builder.Register<PopupBuilder>(Lifetime.Singleton).AsImplementedInterfaces();
             
             builder.Register<ViewModelsTracker>(Lifetime.Singleton).AsImplementedInterfaces();
             
@@ -26,6 +27,7 @@ namespace DI
             builder.Register<PopupPanelViewModel>(Lifetime.Singleton).AsImplementedInterfaces().AsSelf();
 
             builder.Register<PuzzleSelectionElementViewModel>(Lifetime.Transient).AsImplementedInterfaces().AsSelf();
+            builder.Register<PopupOptionViewModel>(Lifetime.Transient).AsImplementedInterfaces().AsSelf();
             
             builder.RegisterInstance(_puzzlesMockSettings).AsImplementedInterfaces();
         }

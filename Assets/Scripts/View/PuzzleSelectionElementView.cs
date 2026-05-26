@@ -14,7 +14,7 @@ namespace View
         
         protected override void OnBind(CompositeDisposable disposables)
         {
-            ViewModel.PuzzleImage.Subscribe(sprite => _puzzlePreviewImage.sprite = sprite).AddTo(disposables);
+            ViewModel.Image.Subscribe(sprite => _puzzlePreviewImage.sprite = sprite).AddTo(disposables);
             _selectButton.BindClick(ViewModel.OnSelected).AddTo(disposables);
         }
     }

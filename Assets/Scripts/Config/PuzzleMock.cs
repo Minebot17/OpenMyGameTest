@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using ViewModel;
 
 namespace Config
 {
@@ -8,5 +9,6 @@ namespace Config
     {
         public string Id;
         public Sprite Image;
+        public PuzzleOpenType OpenType;
     }
 }

@@ -30,7 +30,7 @@ namespace ViewModel
             foreach (var puzzleVm 
                      in _puzzleSelectionElementsProvider.GetPuzzles(_objectResolver))
             {
-                PuzzleSelectionElements.Add(puzzleVm.PuzzleId.Value, puzzleVm);
+                PuzzleSelectionElements.Add(puzzleVm.Id.Value, puzzleVm);
             }
         }
     }
